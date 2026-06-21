@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>CS2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎯 CS2</h1>
+
+<div class="videos">
+
+<a href="https://www.youtube.com/live/CZ_0izAUS14" target="_blank">🎬 CS2 Video 1</a>
+<a href="https://youtu.be/YqgkzdLtZU0" target="_blank">🎬 CS2 Video 2</a>
+<a href="https://youtu.be/PFIZVA4cMHA" target="_blank">🎬 CS2 Video 3</a>
+<a href="https://youtu.be/Yk1EfBgRr-Y" target="_blank">🎬 CS2 Video 4</a>
+<a href="https://youtu.be/UrGtKhJ0lW8" target="_blank">🎬 CS2 Video 5</a>
+<a href="https://youtu.be/tV7RZvU7xPY" target="_blank">🎬 CS2 Video 6</a>
+<a href="https://youtu.be/sg9A0E1VMnI" target="_blank">🎬 CS2 Video 7</a>
+<a href="https://youtu.be/-PHDt05Zec8" target="_blank">🎬 CS2 Video 8</a>
+<a href="https://youtu.be/jKOh1i5CbYY" target="_blank">🎬 CS2 Video 9</a>
+<a href="https://youtu.be/ZUtHef3qz2k" target="_blank">🎬 CS2 Video 10</a>
+<a href="https://youtu.be/nKPk1Mj-y-Y" target="_blank">🎬 CS2 Video 11</a>
+<a href="https://youtu.be/QQtnCW9jekw" target="_blank">🎬 CS2 Video 12</a>
+<a href="https://youtu.be/fsHK8DAxBkE" target="_blank">🎬 CS2 Video 13</a>
+<a href="https://youtu.be/oGvDd4iqB3s" target="_blank">🎬 CS2 Video 14</a>
+<a href="https://youtube.com/shorts/9wSsjxNf9ww" target="_blank">🎬 Short 1</a>
+<a href="https://youtube.com/shorts/_kQSOa23ass" target="_blank">🎬 Short 2</a>
+
+</div>
+
+<a class="volver" href="index.html">🏠 Volver al inicio</a>
+
+</body>
+</html>
