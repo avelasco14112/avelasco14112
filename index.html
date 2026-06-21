@@ -5,35 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Avelasco Gaming</title>
 <link rel="stylesheet" href="style.css">
-
-<style>
-/* BUSCADOR */
-#searchBox {
-    width: 90%;
-    padding: 10px;
-    margin: 10px;
-    font-size: 16px;
-}
-
-/* CONTADOR */
-.counter {
-    text-align: center;
-    margin: 15px;
-    font-size: 18px;
-    color: #fff;
-}
-</style>
-
 </head>
+
 <body>
 
 <header>
     <h1>🎮 AVELASCO</h1>
 </header>
 
-<!-- 🔥 CONTADOR DE VISITAS -->
-<div class="counter">
-👁️ Visitas a la web: <span id="visitas">0</span>
+<!-- MENÚ PRINCIPAL -->
+<div class="menu">
+    <a href="gta.html">🔥 GTA</a>
+    <a href="cs2.html">🎯 CS2</a>
+    <a href="contacto.html">📱 Redes Sociales</a>
 </div>
 
 <!-- 🔎 BUSCADOR -->
@@ -44,27 +28,6 @@
     <a href="#directos">🔴 Directos</a>
     <a href="#gameplays">🎮 Gameplays</a>
 </div>
-
-
-</div>
-
-<!-- 🔥 BUSCADOR SCRIPT -->
-<script>
-function buscarVideos() {
-    let input = document.getElementById("searchBox").value.toLowerCase();
-    let videos = document.querySelectorAll(".videos a");
-
-    videos.forEach(video => {
-        let texto = video.textContent.toLowerCase();
-        if (texto.includes(input)) {
-            video.style.display = "block";
-        } else {
-            video.style.display = "none";
-        }
-    });
-}
-</script>
-
 <!-- 👁️ CONTADOR DE VISITAS (simple con localStorage) -->
 <script>
 let visitas = localStorage.getItem("visitas");
@@ -79,5 +42,10 @@ localStorage.setItem("visitas", visitas);
 document.getElementById("visitas").innerText = visitas;
 </script>
 
+
+</div>
+<footer>
+  <p>© 2026 Avelasco Gaming - Todos los derechos reservados</p>
+</footer>
 </body>
 </html>
