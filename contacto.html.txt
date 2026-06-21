@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Contacto</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📱 REDES SOCIALES</h1>
+
+<div class="videos">
+
+<a href="https://www.youtube.com/@avelasco14112" target="_blank">
+📺 YouTube @avelasco14112
+</a>
+
+<a href="https://www.instagram.com/aadrii._.12/" target="_blank">
+📸 Instagram aadrii._.12
+</a>
+
+<a href="https://www.tiktok.com/@avelasco14112?is_from_webapp=1&sender_device=pc" target="_blank">
+🎵 TikTok @avelasco14112
+</a>
+
+</div>
+
+<a class="volver" href="index.html">🏠 Volver al inicio</a>
+
+</body>
+</html>
