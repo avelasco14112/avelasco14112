@@ -8,12 +8,16 @@
 </head>
 
 <body>
+
 <video autoplay muted loop id="bg-video">
     <source src="fondo.mp4" type="video/mp4">
 </video>
+
 <header>
     <h1>🎮 AVELASCO</h1>
-</header>   <div class="counter">
+</header>
+
+<div class="counter">
 👁️ Visitas a la web: <span id="visitas">0</span>
 </div>
 
@@ -24,12 +28,79 @@
     <a href="contacto.html">📱 Redes Sociales</a>
 </div>
 
-<!-- MENÚ -->
+<!-- 🔥 BOTONES INTERNOS -->
 <div class="menu">
     <a href="#directos">🔴 Directos</a>
     <a href="#gameplays">🎮 Gameplays</a>
 </div>
-<!-- 👁️ CONTADOR DE VISITAS (simple con localStorage) -->
+
+<!-- 🔴 DIRECTOS -->
+<h1 id="directos">🔴 DIRECTOS</h1>
+
+<div class="videos">
+
+<a href="https://www.youtube.com/live/xQVkLh5iGjM?si=0brgXCzDHjdG97Ym" target="_blank">
+🔴 Playtime Directo
+</a>
+
+<a href="https://www.youtube.com/live/kh7nFzF1arY?si=ZgE78dNK-xBXeJp3" target="_blank">
+🔴 8 AM
+</a>
+
+<a href="https://www.youtube.com/live/MMUOcfULH8o?si=v4l9JGLFbtO8leL1" target="_blank">
+🛒 Supermarket Together 5
+</a>
+
+<a href="https://www.youtube.com/live/xIL42PHtPJ8?si=AGl63s5w1vus_0uk" target="_blank">
+🛒 Supermarket Together 4
+</a>
+
+<a href="https://www.youtube.com/live/Vs6zFgKinLE?si=0dzQMQ0xu91IYdX1" target="_blank">
+🛒 Supermarket Together 3
+</a>
+
+<a href="https://www.youtube.com/live/5nQpnvJVCrM" target="_blank">
+🛒 Supermarket Together 2
+</a>
+
+<a href="https://www.youtube.com/live/qG1KdXr0c-Q?si=Xox7ZmDCknG_80MJ" target="_blank">
+🛒 Supermarket Together 1
+</a>
+
+<a href="https://www.youtube.com/live/5PDQBd1_vQE?si=l9BXtyTSz4UZacPC" target="_blank">
+🧠 Paragnosia
+</a>
+
+</div>
+
+<!-- 🎮 GAMEPLAYS -->
+<h1 id="gameplays">🎮 GAMEPLAYS</h1>
+
+<div class="videos">
+
+<a href="https://youtu.be/us057bO041k?si=5fGuMR-JS9r1eUPz" target="_blank">
+🎮 Roblox
+</a>
+
+<a href="https://youtu.be/Q6_nS-dN3vc?si=PYFRux-qgxaHrPu0" target="_blank">
+🚗 Forza Horizon 6 - Video 1
+</a>
+
+<a href="https://youtu.be/gnx2J_3SDMA?si=YNCdAE2f59WqNhZR" target="_blank">
+🚗 Forza Horizon 6 - Video 2
+</a>
+
+<a href="https://youtu.be/UCPR25N_pRY?si=8-RPjmbA765o_Tfx" target="_blank">
+🚗 Forza Horizon 6 - Video 3
+</a>
+
+<a href="https://youtu.be/_IPK2O-SnNY?si=alnonM9pCDqXgxKI" target="_blank">
+👻 Playtime
+</a>
+
+</div>
+
+<!-- 👁️ CONTADOR SCRIPT -->
 <script>
 let visitas = localStorage.getItem("visitas");
 
@@ -43,10 +114,9 @@ localStorage.setItem("visitas", visitas);
 document.getElementById("visitas").innerText = visitas;
 </script>
 
-
-</div>
 <footer>
   <p>© 2026 Avelasco Gaming - Todos los derechos reservados</p>
 </footer>
+
 </body>
 </html>
