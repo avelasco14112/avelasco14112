@@ -49,11 +49,9 @@ color:#00ffd5;
 <h1>🎵 ADIVINA LA CANCIÓN 🎵</h1>
 
 <p id="puntos">Puntos: 0</p>
-
-<video id="cancion1.mp4" width="600" controls>
-<source src="cancion1.mp4" type="video/mp4">
+<video id="video" width="600" controls>
+<source src="videos/cancion1.mp4" type="video/mp4">
 </video>
-
 <br>
 
 
@@ -78,19 +76,15 @@ correcta = Math.floor(Math.random()*3)+1;
 document.getElementById("resultado").innerHTML="";
 
 if(correcta==1){
-document.getElementById("audio").src="cancion1.mp3";
+document.getElementById("video").src="videos/cancion1.mp4";
 }
 
 if(correcta==2){
-document.getElementById("audio").src="cancion2.mp3";
+document.getElementById("video").src="videos/cancion2.mp4";
 }
 
 if(correcta==3){
-document.getElementById("audio").src="cancion3.mp3";
-}
-
-document.getElementById("audio").play();
-
+document.getElementById("video").src="videos/cancion3.mp4";
 }
 
 function comprobar(num){
