@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Adivina el Juego</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🎮 Adivina el Juego</h1>
+
+<video id="video" width="700" controls>
+  <source src="videos/roblox.mp4" type="video/mp4">
+</video>
+
+<br><br>
+
+<button onclick="comprobar('Roblox')">Roblox</button>
+<button onclick="comprobar('Forza')">Forza Horizon 6</button>
+<button onclick="comprobar('Playtime')">Playtime</button>
+
+<h2 id="resultado"></h2>
+
+<script>
+
+let correcta = "Roblox";
+
+function comprobar(opcion){
+
+if(opcion === correcta){
+document.getElementById("resultado").innerHTML =
+"✅ ¡Correcto!";
+}else{
+document.getElementById("resultado").innerHTML =
+"❌ Incorrecto";
+}
+
+}
+
+</script>
+
+</body>
+</html>
