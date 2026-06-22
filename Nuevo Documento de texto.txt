@@ -1,0 +1,49 @@
+!DOCTYPE html
+html lang=es
+head
+meta charset=UTF-8
+meta name=viewport content=width=device-width, initial-scale=1.0
+titleMi Setup - Avelasco Gamingtitle
+link rel=stylesheet href=style.css
+head
+body
+
+h1🖥️ MI SETUPh1
+
+div class=setup
+
+    h2💻 Portátilh2
+    pstrongMSI Cyborg 15 A13VEstrongp
+
+    h2⚙️ Procesadorh2
+    pIntel Core i5-13420Hp
+
+    h2🎮 Tarjeta Gráficah2
+    pNVIDIA GeForce RTX 4050 Laptop GPUp
+
+    h2🧠 Memoria RAMh2
+    p16 GB DDR5p
+
+    h2🖥️ Pantallah2
+    p15,6 Full HDp
+
+    h2🪟 Sistema Operativoh2
+    pWindows 11 Prop
+
+    h2🔧 Placa Baseh2
+    pMSI MS-15K1p
+
+    h2🎥 Uso del equipoh2
+    ul
+        liGrabar vídeos para YouTubeli
+        liHacer directosli
+        liEditar vídeosli
+        liJugar a GTA, CS2, Forza Horizon, Roblox y másli
+    ul
+
+div
+
+a class=volver href=index.html🏠 Volver al inicioa
+
+body
+html
