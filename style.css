@@ -113,3 +113,24 @@ body.gameplays {
 body.redes {
   background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0");
 }
+.setup{
+    max-width:800px;
+    margin:auto;
+    text-align:left;
+    padding:20px;
+}
+
+.setup h2{
+    color:#00ffd5;
+    margin-top:20px;
+}
+
+.setup p,
+.setup li{
+    font-size:18px;
+    margin-top:5px;
+}
+
+.setup ul{
+    margin-left:25px;
+}
